@@ -1,0 +1,26 @@
+class Calculadora :
+    def __init__(self,a ,b):
+        self.suma = a + b
+        self.resta = a - b
+        self.mult = a * b
+        self.div = a / b
+
+        
+origen = Calculadora (9,7)
+print (origen.suma )
+16
+print (origen.resta)
+2
+print (origen.mult)
+63
+print(origen.div)
+1.2857142857142858
+origen= Calculadora (7,4)
+print (origen.suma)
+11
+print(origen.resta)
+3
+print(origen.mult)
+28
+print(origen.div)
+1.75
